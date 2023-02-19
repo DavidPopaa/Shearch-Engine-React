@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+.display-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    border-radius: 9px;
+    font-family: 'Roboto', sans-serif;
+    max-height: 80px;
+}
+
+.display-box:hover {
+    font-size: larger;
+    transition: 0.5s;
+}
